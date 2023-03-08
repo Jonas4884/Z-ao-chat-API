@@ -1,4 +1,4 @@
-package com.zaochat.api.model;
+package com.zaochat.api.model.chatMessage;
 
 
 import lombok.AllArgsConstructor;

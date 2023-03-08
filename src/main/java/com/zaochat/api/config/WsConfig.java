@@ -19,6 +19,7 @@ public class WsConfig implements WebSocketMessageBrokerConfigurer {
     public void configureMessageBroker(MessageBrokerRegistry registry) {
         registry.setApplicationDestinationPrefixes("/App");
         registry.enableSimpleBroker("/chatroom","user");
+
         registry.setUserDestinationPrefix("/user");
     }
 }
